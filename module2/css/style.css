@@ -39,9 +39,26 @@ h1 {
 	text-align: justify;
 }
 
+
 @media (min-width: 992px) {
 	.resp-box {
-		width: 33%;
 		float: left;
+		width: 33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.resp-tab-1 {
+		float: left;
+		width: 50%;
+	}
+	.resp-tab-2 {
+		float: left;
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	.resp-box {
+		float: left;
+		width: 100%;
 	}
 }
