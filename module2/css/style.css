@@ -17,20 +17,36 @@ h1 {
 .block {
   margin-right: auto;
   margin-left: auto;
-  background: #c7c7c7;
+  position: relative;
+  background: #d9d9d9;
   border: #000000 solid 1px;
   margin: 10px;
 }
 .box-heading {
-	float: right;
-	width: 66.67%;
+	position: absolute;
+	top: 0;
+	right: 0;
 	margin: 0;
-	background-color: maroon;
 	color: #ffffff;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 1px 1px;
 	padding: 2px;
 }
+#hd1 {
+	background-color: #ff9933;
+	color: #ffffff;
+}
+#hd2 {
+	background-color: #1e90ff;
+	color: #ffffff;
+}
+#hd3 {
+	background-color: #ff6699;
+	color: #ffffff;
+}
 .box-heading h3{
-	text-align: center;
+	text-align: center; 
 }
 .block p {
 	padding: 3px;
